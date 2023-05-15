@@ -1,0 +1,36 @@
+/* style du footer*/
+
+footer
+{
+    margin-top: 50px;
+    
+    border-bottom: outset 3px rgb(114, 186, 6);
+    border-radius: 6px;
+}
+
+footer ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 50px;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 765px)
+{
+    footer
+    {
+        margin-top: 40px;
+        
+        border-bottom: outset 3px rgb(114, 186, 6);
+        border-radius: 6px;
+    }
+
+    footer ul li
+    {
+        list-style-type: none;
+        display: inline-block;
+        padding-left: 20px;
+        font-size: 12px;
+    }    
+}
